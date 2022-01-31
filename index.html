@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SUDOKU</title>
+</head>
+
+<body class="body">
+    <main>
+        <h1>JUEGO DE SUDOKU</h1>
+
+        <div>
+            <form action="">
+
+                <table class="fondo" border="0" align="center" cellspacing="1" cellpadding="1">
+                    <tr>
+                        <td class="ladosEsquinas"><input id="1" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="2" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="3" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="4" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="5" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="6" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="7" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="8" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="9" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosEsquinas"><input id="10" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="11" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="12" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="13" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="14" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="15" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="16" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="17" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="18" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosEsquinas"><input id="19" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="20" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="21" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="22" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="23" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="24" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="25" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="26" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="27" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosAbajo"><input id="28" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="29" class="tamaño"></td>
+                        <td class="ladosEsquinasR"><input id="30" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="31" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="32" class="tamaño"></td>
+                        <td class="ladosEsquinasR"><input id="33" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="34" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="35" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="36" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosEsquinas"><input id="37" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="38" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="39" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="40" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="41" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="42" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="43" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="44" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="45" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosEsquinas"><input id="46" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="47" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="48" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="49" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="50" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="51" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="52" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="53" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="54" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosAbajo"><input id="55" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="56" class="tamaño"></td>
+                        <td class="ladosEsquinasR"><input id="57" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="58" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="59" class="tamaño"></td>
+                        <td class="ladosEsquinasR"><input id="60" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="61" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="52" class="tamaño"></td>
+                        <td class="ladosAbajo"><input id="63" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosEsquinas"><input id="64" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="65" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="66" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="67" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="68" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="69" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="70" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="71" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="72" class="tamaño"></td>
+                    </tr>
+                    <tr>
+                        <td class="ladosEsquinas"><input id="73" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="74" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="75" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="76" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="77" class="tamaño"></td>
+                        <td class="ladosIzquierda"><input id="78" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="79" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="80" class="tamaño"></td>
+                        <td class="ladosEsquinas"><input id="81" class="tamaño"></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <div>
+                <center>
+                    <button type="button " onclick="limpiar() " class="button">Limpiar</button>
+                    <input id="formDatosAEnviar" name="enviar" type="submit" onclick="getRespuesta()" class="button" value="Comprobar Resultados">
+                </center>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+        <script src="backendSudoku.js"></script>
+    </main>
+</body>
+
+</html>

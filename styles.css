@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+.fondo {
+    table-layout: fixed;
+    border: rgb(58, 97, 180) 5px solid;
+    width: 450px;
+    height: 255px;
+    vertical-align: middle;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tamaño {
+    FONT-SIZE: 25px;
+    border: none;
+    background-color: transparent;
+    WIDTH: 35px;
+    HEIGHT: 35px;
+    LINE-HEIGHT: 28px;
+    TEXT-ALIGN: center;
+    margin: 0px;
+    COLOR: #ca0d0d;
+    FONT-FAMILY: Verdana;
+}
+
+td.ladosEsquinas {
+    border-right: rgb(0, 0, 0) 2px solid;
+    border-top: rgb(0, 0, 0)2px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+td.ladosIzquierda {
+    border-right: #443 4px solid;
+    border-top: rgb(0, 0, 0)2px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+td.ladosAbajo {
+    border-right: rgb(0, 0, 0)2px solid;
+    border-top: #443 4px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+td.ladosEsquinasR {
+    border-right: #443 4px solid;
+    border-top: #443 4px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    LINE-height: 35px;
+}
+
+.button {
+    background-color: #af4c4c;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+
+.button:hover {
+    background-color: #35ba00;
+    color: white;
+}
